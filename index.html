@@ -5,39 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilos/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/mediaquery.css" media="all">
 </head>
 <body>
+     <main>
+        <section id="login">
+            <div id="img">
+              
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
-    <main>
-        <div id="imagem">
-            <img src="imagens/pexels-eberhard-grossgasteiger-844297.jpg" alt="céu com nuvens">
-        </div>
-        <div id="login">
-             <h1>Login</h1>
-             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-             <div id="form">
-                 <form action="form.php" method="post">
+                <form action="login.php" method="post">
+
                     <div class="email">
-                        <label for="iimail"><span id="icoima" class="material-symbols-outlined">person</span></label>
-                        <input type="email" name="email" id="iimail" required placeholder="seu e-mail">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="email" id="iemail" required placeholder="Seu email">
                     </div>
                     <div class="senha">
-                        
-                        <label for="isenha"><span id="ocose" class="material-symbols-outlined">key</span></label>
-                        <input type="text" name="senha" id="isenha" required placeholder="sua senha">
+                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                        <input type="password" name="senha" id="isenha" required placeholder="Sua senha">
                     </div>
-                    <div class="entrar">
-                        <input id="entrar" type="submit" value="Entrar">
-                    </div>
-                    <div>
-                        <input type="text" name="esq" id="iesq" placeholder="Esqueci a senha">
-                    </div>
-             </div>
 
-             </form>
-        </div>
-    </main>
+                    <div class="entrar">
+                        <input type="submit" value="Entrar">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+     </main>
     
 </body>
 </html>
