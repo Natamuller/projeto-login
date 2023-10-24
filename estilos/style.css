@@ -50,12 +50,94 @@ section#login > div#img{
 }
 
 section#login > div#form{ 
- display: block;
- padding: 10px;
+      padding: 10px;
 }
 
 div#form > h1{
     text-align: center;
+    margin-bottom: 5px;
+}
+
+div#form > p{
+    font-size: .8em;
+    margin-bottom: 5px;
+}
+
+form > div.lg{
+    background-color: #5f2c82;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+form > div.lg > label{
+    display: none;
+}
+
+form > div.lg > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 3px;
+}
+
+form > div.lg > input{
+    background-color: #56c1be;
+    height: 100%;
+    width: calc(100% - 44.4px);
+    border-radius: 5px;
+    border: 2px solid #5f2c82;
+    font-size: .8em;
+    padding: 2px;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+form > div.lg > input:focus-within{
+     background-color: white;
+     cursor: auto;
+     outline: none;
+}
+
+
+form > input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    background-color: #49a09d ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+     background-color: #275655;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid  #49a09d;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    margin-top: 5px;
+    padding-top: 7px;
+}
+
+form > a.botao:hover{
+    background-color: #49a09d;
+}
+
+form> a.botao > span{
+    font-size: 15px;
 }
 
 
